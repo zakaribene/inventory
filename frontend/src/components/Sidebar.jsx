@@ -70,11 +70,11 @@ const Sidebar = ({ isOpen = true, setIsOpen = () => {} }) => {
       <div className="px-6 py-4 border-t border-slate-200">
         <div className="flex items-center gap-3 text-sm">
           <div className="w-8 h-8 rounded-full bg-slate-200 flex items-center justify-center text-slate-700 font-semibold">
-            A
+            Z
           </div>
           <div>
             <p className="text-slate-900 font-medium">Admin User</p>
-            <p className="text-xs text-slate-500">admin@inventory.com</p>
+            <p className="text-xs text-slate-500">Zakarie Elmi</p>
           </div>
         </div>
       </div>

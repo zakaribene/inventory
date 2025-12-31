@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import AdminDashboard from './components/AdminDashboard';
+import AdminDashboard from './components/ResponsiveButton';
 import Dashboard from './pages/Dashboard';
 import Products from './pages/Products';
 import './App.css';

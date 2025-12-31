@@ -34,6 +34,7 @@ const Products = () => {
     }
   };
 
+  // create 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -93,6 +94,7 @@ const Products = () => {
 
  
 
+  // update
   const handleEdit = (product) => {
     setSelectedProduct(product);
     setFormData({
@@ -105,6 +107,8 @@ const Products = () => {
     setShowEditModal(true);
   };
 
+
+  // delete
   const handleDelete = async (id) => {
     if (window.confirm('Are you sure you want to delete this product?')) {
       try {
@@ -120,6 +124,7 @@ const Products = () => {
     }
   };
 
+  
   // Filter products by search term
   const filteredProducts = products.filter((product) =>
     product.name.toLowerCase().includes(searchTerm.toLowerCase())
