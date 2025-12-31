@@ -74,7 +74,7 @@ const Sidebar = ({ isOpen = true, setIsOpen = () => {} }) => {
           </div>
           <div>
             <p className="text-slate-900 font-medium">Admin User</p>
-            <p className="text-xs text-slate-500">Zakarie Elmi</p>
+            <p className="text-xs text-slate-500">Zakaria Elmi</p>
           </div>
         </div>
       </div>
